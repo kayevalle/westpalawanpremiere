@@ -63,15 +63,21 @@
         }
         .panorama-container {
             position: relative;
-            height: 0;
-            padding-bottom: 100%;  /* 4/3 on mobile, padding = 3/4 */
+            height: 600px;
+            padding-bottom: 40%;  /* 4/3 on mobile, padding = 3/4 */
         }
         .panorama-container iframe {
             position: absolute;
             top: 0;
             left: 0; 
             width: 400%; 
-            height: 40%;
+            height: 100%;
+        }
+        .card-image{
+            height: 140px;
+        }
+        .author, .card-description{
+            text-align: left!important;
         }
     </style>
 
@@ -98,38 +104,15 @@
                             <a href="../documentation/tutorial-components.html" target="_blank" class="nav-link">About</a>
                         </li>
                         <li class="nav-item">
-                            <a href="../documentation/tutorial-components.html" target="_blank" class="nav-link">About</a>
+                            <a href="../documentation/tutorial-components.html" target="_blank" class="nav-link">Projects</a>
                         </li>
-                        <li class="nav-item">
-                            <a href="../documentation/tutorial-components.html" target="_blank" class="nav-link">About</a>
-                        </li>
+                        <!-- <li class="nav-item">
+                            <a href="../documentation/tutorial-components.html" target="_blank" class="nav-link">Gallery</a>
+                        </li> -->
                         <li class="nav-item">
                             <a href="../documentation/tutorial-components.html" target="_blank" class="nav-link">Contact Us</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" rel="tooltip" title="Follow us on Twitter" data-placement="bottom" href="https://twitter.com/CreativeTim" target="_blank">
-                                <i class="fa fa-twitter"></i>
-                                <p class="d-lg-none">Twitter</p>
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" rel="tooltip" title="Like us on Facebook" data-placement="bottom" href="https://www.facebook.com/CreativeTim" target="_blank">
-                                <i class="fa fa-facebook-square"></i>
-                                <p class="d-lg-none">Facebook</p>
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" rel="tooltip" title="Follow us on Instagram" data-placement="bottom" href="https://www.instagram.com/CreativeTimOfficial" target="_blank">
-                                <i class="fa fa-instagram"></i>
-                                <p class="d-lg-none">Instagram</p>
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" rel="tooltip" title="Star on GitHub" data-placement="bottom" href="https://www.github.com/CreativeTimOfficial" target="_blank">
-                                <i class="fa fa-github"></i>
-                                <p class="d-lg-none">GitHub</p>
-                            </a>
-                        </li>
+                        
                     </ul>
                 </div>
             </div>
@@ -284,7 +267,7 @@
                             </div>
 							<div class="description">
 								<h4 class="info-title">Lazuli</h4>
-								<p class="description">Spend your time generating new ideas. You don't have to think of implementing.</p>
+								<p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum malesuada in risus ac maximus. Donec. </p>
 								<a href="#pkp" class="btn btn-link btn-danger">See more</a>
 							</div>
 						</div>
@@ -296,7 +279,7 @@
                             </div>
 							<div class="description">
 								<h4 class="info-title">Sapphire Sands</h4>
-								<p>Larger, yet dramatically thinner. More powerful, but remarkably power efficient.</p>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum malesuada in risus ac maximus. Donec. </p>
 								<a href="#pkp" class="btn btn-link btn-danger">See more</a>
 							</div>
 						</div>
@@ -308,7 +291,7 @@
                             </div>
 							<div class="description">
 								<h4 class="info-title">Diamond Cave</h4>
-								<p>Choose from a veriety of many colors resembling sugar paper pastels.</p>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum malesuada in risus ac maximus. Donec. </p>
 								<a href="#pkp" class="btn btn-link btn-danger">See more</a>
 							</div>
 						</div>
@@ -320,7 +303,7 @@
                             </div>
 							<div class="description">
 								<h4 class="info-title">Midlands</h4>
-								<p>Find unique and handmade delightful designs related items directly from our sellers.</p>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum malesuada in risus ac maximus. Donec. </p>
 								<a href="#pkp" class="btn btn-link btn-danger">See more</a>
 							</div>
 						</div>
@@ -333,36 +316,33 @@
         <div class="container-fluid" style="overflow: hidden">
           <div class="row">
             <div class="col-sm-6 col-md-3 panorama-container">
-              
-              <iframe src="https://360player.io/p/rjhRh7/" frameborder="0"  data-token="rjhRh7"></iframe>
+                              
+              <script src="https://360player.io/static/dist/scripts/embed.js" async></script>
+              <iframe src="https://360player.io/p/rjhRh7/" frameborder="0" width=560 height=315 allowfullscreen data-token="rjhRh7"></iframe>
+
+                          
             </div>
           </div>
         </div> 
 
-		<div class="section section-dark text-center">
+		<div class="section">
             <div class="container">
-                <h2 class="title">Let's talk about us</h2>
 				<div class="row">
     				<div class="col-md-4">
-                        <div class="card card-profile card-plain">
+                         <div class="card card-profile card-plain">
                             <div class="card-avatar">
                                 <a href="#avatar"><img src="../assets/img/faces/clem-onojeghuo-3.jpg" alt="..."></a>
                             </div>
                             <div class="card-body">
-                                <a href="#paper-kit">
-                                    <div class="author">
-                                        <h4 class="card-title">Henry Ford</h4>
-                                        <h6 class="card-category">Product Manager</h6>
+                                <a href="#">
+                                    <div class="author" style="text-align: left;">
+                                        <h4 class="card-title">About Us</h4>
+                                        <hr style="border-width:4px">
                                     </div>
                                 </a>
-                                <p class="card-description text-center">
-                                Teamwork is so important that it is virtually impossible for you to reach the heights of your capabilities or make the money that you want without becoming very good at it.
+                                <p class="card-description" style="text-align: left;">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eu egestas felis. Etiam quis felis tincidunt diam blandit porttitor. Proin convallis facilisis libero, eu vulputate nunc lobortis ut. Donec elementum eget purus ut sagittis. Suspendisse maximus neque eu neque vestibulum, et dignissim justo tempor. Quisque laoreet lectus ligula, vitae tempus. 
                                 </p>
-                            </div>
-                            <div class="card-footer text-center">
-                                <a href="#pablo" class="btn btn-link btn-just-icon btn-neutral"><i class="fa fa-twitter"></i></a>
-                                <a href="#pablo" class="btn btn-link btn-just-icon btn-neutral"><i class="fa fa-google-plus"></i></a>
-                                <a href="#pablo" class="btn btn-link btn-just-icon btn-neutral"><i class="fa fa-linkedin"></i></a>
                             </div>
                         </div>
     				</div>
@@ -373,20 +353,15 @@
                                 <a href="#avatar"><img src="../assets/img/faces/joe-gardner-2.jpg" alt="..."></a>
                             </div>
                             <div class="card-body">
-                                <a href="#paper-kit">
+                                <a href="#">
                                     <div class="author">
-                                        <h4 class="card-title">Sophie West</h4>
-                                        <h6 class="card-category">Designer</h6>
+                                        <h4 class="card-title">Help</h4>
+                                        <hr style="border-width:4px">
                                     </div>
                                 </a>
-                                <p class="card-description text-center">
-                                A group becomes a team when each member is sure enough of himself and his contribution to praise the skill of the others. No one can whistle a symphony. It takes an orchestra to play it.
+                                <p class="card-description">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eu egestas felis. Etiam quis felis tincidunt diam blandit porttitor. Proin convallis facilisis libero, eu vulputate nunc lobortis ut. Donec elementum eget purus ut sagittis. Suspendisse maximus neque eu neque vestibulum, et dignissim justo tempor. Quisque laoreet lectus ligula, vitae tempus. 
                                 </p>
-                            </div>
-                            <div class="card-footer text-center">
-                                <a href="#pablo" class="btn btn-link btn-just-icon btn-neutral"><i class="fa fa-twitter"></i></a>
-                                <a href="#pablo" class="btn btn-link btn-just-icon btn-neutral"><i class="fa fa-google-plus"></i></a>
-                                <a href="#pablo" class="btn btn-link btn-just-icon btn-neutral"><i class="fa fa-linkedin"></i></a>
                             </div>
                         </div>
     				</div>
@@ -399,18 +374,39 @@
                             <div class="card-body">
                                 <a href="#paper-kit">
                                     <div class="author">
-                                        <h4 class="card-title">Robert Orben</h4>
-                                        <h6 class="card-category">Developer</h6>
+                                        <h4 class="card-title">Contact Us</h4>
+                                        <hr style="border-width:4px">
                                     </div>
                                 </a>
-                                <p class="card-description text-center">
-                                The strength of the team is each individual member. The strength of each member is the team. If you can laugh together, you can work together, silence isn’t golden, it’s deadly.
+                                <p class="card-description">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eu egestas felis. Etiam quis felis tincidunt diam blandit porttitor. Proin convallis facilisis libero, eu vulputate nunc lobortis ut. 
                                 </p>
                             </div>
                             <div class="card-footer text-center">
-                                <a href="#pablo" class="btn btn-link btn-just-icon btn-neutral"><i class="fa fa-twitter"></i></a>
+                               <!--  <a href="#pablo" class="btn btn-link btn-just-icon btn-neutral"><i class="fa fa-twitter"></i></a>
                                 <a href="#pablo" class="btn btn-link btn-just-icon btn-neutral"><i class="fa fa-google-plus"></i></a>
-                                <a href="#pablo" class="btn btn-link btn-just-icon btn-neutral"><i class="fa fa-linkedin"></i></a>
+                                <a href="#pablo" class="btn btn-link btn-just-icon btn-neutral"><i class="fa fa-linkedin"></i></a> -->
+
+
+                                <a class="btn btn-lg btn-link btn-just-icon btn-fill" rel="tooltip" title="Follow us on Twitter" data-placement="bottom" href="https://twitter.com/" target="_blank">
+                                    <i class="fa fa-twitter"></i>
+                                    <p class="d-lg-none">Twitter</p>
+                                </a>
+                                <a class="btn btn-lg btn-link btn-just-icon btn-fill" rel="tooltip" title="Like us on Facebook" data-placement="bottom" href="https://www.facebook.com/" target="_blank">
+                                    <i class="fa fa-facebook-square"></i>
+                                    <p class="d-lg-none">Facebook</p>
+                                </a>
+                            
+                                <a class="btn btn-lg btn-link btn-just-icon btn-fill" rel="tooltip" title="Follow us on Instagram" data-placement="bottom" href="https://www.instagram.com/" target="_blank">
+                                    <i class="fa fa-instagram"></i>
+                                    <p class="d-lg-none">Instagram</p>
+                                </a>
+                            
+                                <a class="btn btn-lg btn-link btn-just-icon btn-fill" rel="tooltip" title="Follow on Vimeo" data-placement="bottom" href="https://www.vimeo.com/" target="_blank">
+                                    <i class="fa fa-vimeo-square"></i>
+                                    <p class="d-lg-none">Vimeo</p>
+                                </a>
+                                
                             </div>
                         </div>
     				</div>
@@ -418,7 +414,7 @@
         	</div>
     	</div>
 
-            <div class="section landing-section">
+            <!-- <div class="section landing-section">
                 <div class="container">
                     <div class="row">
                         <div class="col-md-8 ml-auto mr-auto">
@@ -455,21 +451,22 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> -->
         </div>
 	<footer class="footer section-dark">
 		<div class="container">
-			<div class="row">
-				<nav class="footer-nav">
+            <hr style="border-width: 4px;">
+            <div class="row">
+				<!-- <nav class="footer-nav">
 					<ul>
 						<li><a href="https://www.creative-tim.com">Creative Tim</a></li>
 						<li><a href="http://blog.creative-tim.com">Blog</a></li>
 						<li><a href="https://www.creative-tim.com/license">Licenses</a></li>
 					</ul>
-				</nav>
-				<div class="credits ml-auto">
-					<span class="copyright">
-						© <script>document.write(new Date().getFullYear())</script>, made with <i class="fa fa-heart heart"></i> by Creative Tim
+				</nav> -->
+				<div class="credits ml-auto text-center">
+					<span class="copyright text-center">
+						© <script>document.write(new Date().getFullYear())</script> West Palawan Premiere
 					</span>
 				</div>
 			</div>
