@@ -79,6 +79,12 @@
         .author, .card-description{
             text-align: left!important;
         }
+        .card-projects{
+            background-position:center;
+            background-size:cover;
+            padding-top: 30%;
+            padding-bottom: 30%;
+        }
     </style>
 
 </head>
@@ -261,8 +267,8 @@
 				<br/><br/>
 				<div class="row">
 					<div class="col-md-3">
-						<div class="info">
-							<div class="card-image">
+						<!-- <div class="info">
+							<div class="card-avatar">
                                 <img class="img img-fluid" src="img/lowresolution paul quiambao batch 1 (19).jpg">
                             </div>
 							<div class="description">
@@ -270,11 +276,18 @@
 								<p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum malesuada in risus ac maximus. Donec. </p>
 								<a href="#pkp" class="btn btn-link btn-danger">See more</a>
 							</div>
-						</div>
+						</div> -->
+
+                        <div data-background="image" style="background-image: url('img/lowresolution paul quiambao batch 1 (19).jpg');" class="card card-projects">
+                            <div class="card-body">
+                                <h3 class="card-title" style="color: white;background-color: rgba(98,100,151,0.8)">Lazuli</h3>
+                            </div>
+                        </div>
+
 					</div>
 					<div class="col-md-3">
-						<div class="info">
-							<div class="card-image">
+						<!-- <div class="info">
+							<div class="card-avatar">
                                 <img class="img img-fluid" src="img/lowresolution paul quiambao batch 1 (7).jpg">
                             </div>
 							<div class="description">
@@ -282,11 +295,18 @@
 								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum malesuada in risus ac maximus. Donec. </p>
 								<a href="#pkp" class="btn btn-link btn-danger">See more</a>
 							</div>
-						</div>
+						</div> -->
+
+                        <div data-background="image" style="background-image: url('img/lowresolution paul quiambao batch 1 (7).jpg');" class="card card-projects">
+                            <div class="card-body">
+                                <h3 class="card-title" style="color: white;background-color: rgba(98,100,151,0.8)">Sapphire Sands</h3>
+                            </div>
+                        </div>
+
 					</div>
 					<div class="col-md-3">
-						<div class="info">
-							<div class="card-image">
+						<!-- <div class="info">
+							<div class="card-avatar">
                                 <img class="img img-fluid" src="img/lowresolution paul quiambao batch 1 (20).jpg">
                             </div>
 							<div class="description">
@@ -294,11 +314,18 @@
 								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum malesuada in risus ac maximus. Donec. </p>
 								<a href="#pkp" class="btn btn-link btn-danger">See more</a>
 							</div>
-						</div>
+						</div> -->
+
+                        <div data-background="image" style="background-image: url('img/lowresolution paul quiambao batch 1 (20).jpg');" class="card card-projects">
+                            <div class="card-body">
+                                <h3 class="card-title" style="color: white;background-color: rgba(98,100,151,0.8)">Diamond Cave</h3>
+                            </div>
+                        </div>
+
 					</div>
 					<div class="col-md-3">
-						<div class="info">
-							<div class="card-image">
+						<!-- <div class="info">
+							<div class="card-avatar">
                                 <img class="img img-fluid" src="img/lowresolution paul quiambao batch 1 (26).jpg">
                             </div>
 							<div class="description">
@@ -306,7 +333,14 @@
 								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum malesuada in risus ac maximus. Donec. </p>
 								<a href="#pkp" class="btn btn-link btn-danger">See more</a>
 							</div>
-						</div>
+						</div> -->
+
+                        <div data-background="image" style="background-image: url('img/lowresolution paul quiambao batch 1 (26).jpg');" class="card card-projects">
+                            <div class="card-body">
+                                <h3 class="card-title" style="color: white;background-color: rgba(98,100,151,0.8)">Midlands</h3>
+                            </div>
+                        </div>
+
 					</div>
 				</div>
 
@@ -390,21 +424,21 @@
 
                                 <a class="btn btn-lg btn-link btn-just-icon btn-fill" rel="tooltip" title="Follow us on Twitter" data-placement="bottom" href="https://twitter.com/" target="_blank">
                                     <i class="fa fa-twitter"></i>
-                                    <p class="d-lg-none">Twitter</p>
+                                    <!-- <p class="d-lg-none">Twitter</p> -->
                                 </a>
                                 <a class="btn btn-lg btn-link btn-just-icon btn-fill" rel="tooltip" title="Like us on Facebook" data-placement="bottom" href="https://www.facebook.com/" target="_blank">
                                     <i class="fa fa-facebook-square"></i>
-                                    <p class="d-lg-none">Facebook</p>
+                                    <!-- <p class="d-lg-none">Facebook</p> -->
                                 </a>
                             
                                 <a class="btn btn-lg btn-link btn-just-icon btn-fill" rel="tooltip" title="Follow us on Instagram" data-placement="bottom" href="https://www.instagram.com/" target="_blank">
                                     <i class="fa fa-instagram"></i>
-                                    <p class="d-lg-none">Instagram</p>
+                                    <!-- <p class="d-lg-none">Instagram</p> -->
                                 </a>
                             
                                 <a class="btn btn-lg btn-link btn-just-icon btn-fill" rel="tooltip" title="Follow on Vimeo" data-placement="bottom" href="https://www.vimeo.com/" target="_blank">
                                     <i class="fa fa-vimeo-square"></i>
-                                    <p class="d-lg-none">Vimeo</p>
+                                    <!-- <p class="d-lg-none">Vimeo</p> -->
                                 </a>
                                 
                             </div>
