@@ -14,7 +14,7 @@
 
 	<!-- Bootstrap core CSS     -->
 	<link href="css/bootstrap.min.css" rel="stylesheet" />
-	<link href="css/paper-kit.css?v=2.1.0" rel="stylesheet"/>
+	<link href="css/paper-kit.css?v=2.1.0" rel="stylesheet">
 
 	<!--  CSS for Demo Purpose, don't include it in your project     -->
 	<link href="css/demo.css" rel="stylesheet" />
@@ -82,9 +82,16 @@
         .card-projects{
             background-position:center;
             background-size:cover;
-            padding-top: 30%;
-            padding-bottom: 30%;
+            padding-top: 20%;
+            padding-bottom: 20%;
+            border-radius: 0px;
         }
+        .tooltip.bs-tooltip-bottom .arrow{display:none;}
+        .tooltip.bs-tooltip-bottom{margin-top:0px!important;}
+        .project-details:hover{
+            transition: all 0.5s ease;
+        }
+        .popover.bs-popover-auto[x-placement^=bottom],.popover.bs-popover-bottom{margin-top:0px}
     </style>
 
 </head>
@@ -263,10 +270,16 @@
             <div class="container text-center">
                 <div class="row text-center" style="display: inline-block;">
                         <h2 class="title text-center" id="projectstitle">Projects</h2>
+                        <button type="button" class="btn btn-outline-danger btn-round" data-container="body" data-toggle="popover" data-placement="bottom" data-title="Popover on bottom" data-content="Here will be some very useful information about this popover." data-original-title="" title="">on bottom</button>
+                        <button type="button" class="btn btn-popover btn-secondary" data-toggle="tooltip" data-placement="bottom" title="Tooltip on bottom">
+                          Tooltip on bottom
+                        </button>
                 </div>
 				<br/><br/>
 				<div class="row">
 					<div class="col-md-3">
+
+                        <!-- USING PAPER KIT DEFAULT CARD -->
 						<!-- <div class="info">
 							<div class="card-avatar">
                                 <img class="img img-fluid" src="img/lowresolution paul quiambao batch 1 (19).jpg">
@@ -278,11 +291,19 @@
 							</div>
 						</div> -->
 
-                        <div data-background="image" style="background-image: url('img/lowresolution paul quiambao batch 1 (19).jpg');" class="card card-projects">
-                            <div class="card-body">
+                        <!-- USING DIV BACKGROUND -->
+                        <div class="card card-project" >
+                            <div data-background="image" style="background-image: url('img/lowresolution paul quiambao batch 1 (19).jpg');" class="card-body card-projects" data-container="body" data-toggle="popover" data-placement="bottom" data-title="Popover on bottom" data-content="Here will be some very useful information about this popover." data-original-title="" title="">
                                 <h3 class="card-title" style="color: white;background-color: rgba(98,100,151,0.8)">Lazuli</h3>
                             </div>
+                            <!-- <div class="card-footer project-details wow animated animated4 fadeInLeft">
+                                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                
+                            </div> -->
                         </div>
+
+                        <!-- USING BOOTSTRAP CARD DECK -->
+
 
 					</div>
 					<div class="col-md-3">
@@ -297,10 +318,14 @@
 							</div>
 						</div> -->
 
-                        <div data-background="image" style="background-image: url('img/lowresolution paul quiambao batch 1 (7).jpg');" class="card card-projects">
-                            <div class="card-body">
+                        <div class="card card-project" >
+                            <div data-background="image" style="background-image: url('img/lowresolution paul quiambao batch 1 (7).jpg');" class="card-body card-projects" data-container="body" data-toggle="popover" data-placement="bottom" data-title="Popover on bottom" data-content="Here will be some very useful information about this popover." data-original-title="" title="">
                                 <h3 class="card-title" style="color: white;background-color: rgba(98,100,151,0.8)">Sapphire Sands</h3>
                             </div>
+                            <!-- <div class="card-footer project-details wow animated animated4 fadeInLeft">
+                                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                
+                            </div> -->
                         </div>
 
 					</div>
@@ -316,10 +341,14 @@
 							</div>
 						</div> -->
 
-                        <div data-background="image" style="background-image: url('img/lowresolution paul quiambao batch 1 (20).jpg');" class="card card-projects">
-                            <div class="card-body">
+                        <div class="card card-project" >
+                            <div data-background="image" style="background-image: url('img/lowresolution paul quiambao batch 1 (20).jpg');" class="card-body card-projects" data-container="body" data-toggle="popover" data-placement="bottom" data-title="Popover on bottom" data-content="Here will be some very useful information about this popover." data-original-title="" title="">
                                 <h3 class="card-title" style="color: white;background-color: rgba(98,100,151,0.8)">Diamond Cave</h3>
                             </div>
+                            <!-- <div class="card-footer project-details wow animated animated4 fadeInLeft">
+                                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                
+                            </div> -->
                         </div>
 
 					</div>
@@ -335,10 +364,14 @@
 							</div>
 						</div> -->
 
-                        <div data-background="image" style="background-image: url('img/lowresolution paul quiambao batch 1 (26).jpg');" class="card card-projects">
-                            <div class="card-body">
+                        <div class="card card-project" >
+                            <div data-background="image" style="background-image: url('img/lowresolution paul quiambao batch 1 (26).jpg');" class="card-body card-projects" data-container="body" data-toggle="popover" data-placement="bottom" data-title="Popover on bottom" data-content="Here will be some very useful information about this popover." data-original-title="" title="">
                                 <h3 class="card-title" style="color: white;background-color: rgba(98,100,151,0.8)">Midlands</h3>
                             </div>
+                            <!-- <div class="card-footer project-details wow animated animated4 fadeInLeft">
+                                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                
+                            </div> -->
                         </div>
 
 					</div>
@@ -515,6 +548,10 @@
 <script src="js/bootstrap.min.js" type="text/javascript"></script>
 
 <!--  Paper Kit Initialization snd functons -->
-<script src="js/paper-kit.js?v=2.1.0"></script>
-
+<script src="assets/js/paper-kit.js?v=2.1.0"></script>
+<script type="text/javascript">
+    $(function () {
+      $('[data-toggle="popover"]').popover();
+    })
+</script>
 </html>
