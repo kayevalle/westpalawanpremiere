@@ -335,10 +335,10 @@
                         </div> -->
 
                         <!-- USING BOOTSTRAP CARD IMG-OVERLAY -->
-                        <div class="card">
-                          <img class="card-img" src="img/lowresolution paul quiambao batch 1 (19).jpg" alt="Card image">
+                        <div class="card ">
+                          <img class="card-img " src="img/lowresolution paul quiambao batch 1 (7).jpg" alt="Card image">
                           <div class="card-img-overlay" data-container="body" data-toggle="popover" data-placement="bottom" data-title="" data-content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eu egestas felis. Etiam quis felis tincidunt diam blandit porttitor. Proin convallis facilisis libero, eu vulputate nunc lobortis ut. " data-original-title="" title="">
-                            <h3 class="card-text" style="color: white;background-color: rgba(98,100,151,0.8)">Lazuli</h3>
+                            <h3 class="card-text" style="color: white;background-color: rgba(98,100,151,0.8)">Sapphire Sands</h3>
                           </div>
                         </div>
 
@@ -367,9 +367,9 @@
 
                         <!-- USING BOOTSTRAP CARD IMG-OVERLAY -->
                         <div class="card">
-                          <img class="card-img" src="img/lowresolution paul quiambao batch 1 (19).jpg" alt="Card image">
+                          <img class="card-img" src="img/lowresolution paul quiambao batch 1 (20).jpg" alt="Card image">
                           <div class="card-img-overlay" data-container="body" data-toggle="popover" data-placement="bottom" data-title="" data-content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eu egestas felis. Etiam quis felis tincidunt diam blandit porttitor. Proin convallis facilisis libero, eu vulputate nunc lobortis ut. " data-original-title="" title="">
-                            <h3 class="card-text" style="color: white;background-color: rgba(98,100,151,0.8)">Lazuli</h3>
+                            <h3 class="card-text" style="color: white;background-color: rgba(98,100,151,0.8)">Diamond Cave</h3>
                           </div>
                         </div>
 
@@ -398,9 +398,9 @@
 
                         <!-- USING BOOTSTRAP CARD IMG-OVERLAY -->
                         <div class="card">
-                          <img class="card-img" src="img/lowresolution paul quiambao batch 1 (19).jpg" alt="Card image">
+                          <img class="card-img" src="img/lowresolution paul quiambao batch 1 (26).jpg" alt="Card image">
                           <div class="card-img-overlay" data-container="body" data-toggle="popover" data-placement="bottom" data-title="" data-content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eu egestas felis. Etiam quis felis tincidunt diam blandit porttitor. Proin convallis facilisis libero, eu vulputate nunc lobortis ut. " data-original-title="" title="">
-                            <h3 class="card-text" style="color: white;background-color: rgba(98,100,151,0.8)">Lazuli</h3>
+                            <h3 class="card-text" style="color: white;background-color: rgba(98,100,151,0.8)">Midlands</h3>
                           </div>
                         </div>
 
