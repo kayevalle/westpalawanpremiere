@@ -270,10 +270,10 @@
             <div class="container text-center">
                 <div class="row text-center" style="display: inline-block;">
                         <h2 class="title text-center" id="projectstitle">Projects</h2>
-                        <button type="button" class="btn btn-outline-danger btn-round" data-container="body" data-toggle="popover" data-placement="bottom" data-title="Popover on bottom" data-content="Here will be some very useful information about this popover." data-original-title="" title="">on bottom</button>
+                        <!-- <button type="button" class="btn btn-outline-danger btn-round" data-container="body" data-toggle="popover" data-placement="bottom" data-title="Popover on bottom" data-content="Here will be some very useful information about this popover." data-original-title="" title="">on bottom</button>
                         <button type="button" class="btn btn-popover btn-secondary" data-toggle="tooltip" data-placement="bottom" title="Tooltip on bottom">
                           Tooltip on bottom
-                        </button>
+                        </button> -->
                 </div>
 				<br/><br/>
 				<div class="row">
@@ -292,18 +292,23 @@
 						</div> -->
 
                         <!-- USING DIV BACKGROUND -->
-                        <div class="card card-project" >
+                        <!-- <div class="card card-project" >
                             <div data-background="image" style="background-image: url('img/lowresolution paul quiambao batch 1 (19).jpg');" class="card-body card-projects" data-container="body" data-toggle="popover" data-placement="bottom" data-title="Popover on bottom" data-content="Here will be some very useful information about this popover." data-original-title="" title="">
                                 <h3 class="card-title" style="color: white;background-color: rgba(98,100,151,0.8)">Lazuli</h3>
                             </div>
-                            <!-- <div class="card-footer project-details wow animated animated4 fadeInLeft">
+                            <div class="card-footer project-details wow animated animated4 fadeInLeft">
                                 <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                                 
-                            </div> -->
+                            </div>
+                        </div> -->
+
+                        <!-- USING BOOTSTRAP CARD IMG-OVERLAY -->
+                        <div class="card">
+                          <img class="card-img" src="img/lowresolution paul quiambao batch 1 (19).jpg" alt="Card image">
+                          <div class="card-img-overlay" data-container="body" data-toggle="popover" data-placement="bottom" data-title="" data-content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eu egestas felis. Etiam quis felis tincidunt diam blandit porttitor. Proin convallis facilisis libero, eu vulputate nunc lobortis ut. " data-original-title="" title="">
+                            <h3 class="card-text" style="color: white;background-color: rgba(98,100,151,0.8)">Lazuli</h3>
+                          </div>
                         </div>
-
-                        <!-- USING BOOTSTRAP CARD DECK -->
-
 
 					</div>
 					<div class="col-md-3">
@@ -318,14 +323,23 @@
 							</div>
 						</div> -->
 
-                        <div class="card card-project" >
+                        <!-- <div class="card card-project" >
                             <div data-background="image" style="background-image: url('img/lowresolution paul quiambao batch 1 (7).jpg');" class="card-body card-projects" data-container="body" data-toggle="popover" data-placement="bottom" data-title="Popover on bottom" data-content="Here will be some very useful information about this popover." data-original-title="" title="">
                                 <h3 class="card-title" style="color: white;background-color: rgba(98,100,151,0.8)">Sapphire Sands</h3>
                             </div>
-                            <!-- <div class="card-footer project-details wow animated animated4 fadeInLeft">
+                            <div class="card-footer project-details wow animated animated4 fadeInLeft">
                                 <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                                 
-                            </div> -->
+                            </div>
+
+                        </div> -->
+
+                        <!-- USING BOOTSTRAP CARD IMG-OVERLAY -->
+                        <div class="card">
+                          <img class="card-img" src="img/lowresolution paul quiambao batch 1 (19).jpg" alt="Card image">
+                          <div class="card-img-overlay" data-container="body" data-toggle="popover" data-placement="bottom" data-title="" data-content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eu egestas felis. Etiam quis felis tincidunt diam blandit porttitor. Proin convallis facilisis libero, eu vulputate nunc lobortis ut. " data-original-title="" title="">
+                            <h3 class="card-text" style="color: white;background-color: rgba(98,100,151,0.8)">Lazuli</h3>
+                          </div>
                         </div>
 
 					</div>
@@ -341,14 +355,22 @@
 							</div>
 						</div> -->
 
-                        <div class="card card-project" >
+                        <!-- <div class="card card-project" >
                             <div data-background="image" style="background-image: url('img/lowresolution paul quiambao batch 1 (20).jpg');" class="card-body card-projects" data-container="body" data-toggle="popover" data-placement="bottom" data-title="Popover on bottom" data-content="Here will be some very useful information about this popover." data-original-title="" title="">
                                 <h3 class="card-title" style="color: white;background-color: rgba(98,100,151,0.8)">Diamond Cave</h3>
                             </div>
-                            <!-- <div class="card-footer project-details wow animated animated4 fadeInLeft">
+                            <div class="card-footer project-details wow animated animated4 fadeInLeft">
                                 <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                                 
-                            </div> -->
+                            </div>
+                        </div> -->
+
+                        <!-- USING BOOTSTRAP CARD IMG-OVERLAY -->
+                        <div class="card">
+                          <img class="card-img" src="img/lowresolution paul quiambao batch 1 (19).jpg" alt="Card image">
+                          <div class="card-img-overlay" data-container="body" data-toggle="popover" data-placement="bottom" data-title="" data-content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eu egestas felis. Etiam quis felis tincidunt diam blandit porttitor. Proin convallis facilisis libero, eu vulputate nunc lobortis ut. " data-original-title="" title="">
+                            <h3 class="card-text" style="color: white;background-color: rgba(98,100,151,0.8)">Lazuli</h3>
+                          </div>
                         </div>
 
 					</div>
@@ -364,14 +386,22 @@
 							</div>
 						</div> -->
 
-                        <div class="card card-project" >
+                        <!-- <div class="card card-project" >
                             <div data-background="image" style="background-image: url('img/lowresolution paul quiambao batch 1 (26).jpg');" class="card-body card-projects" data-container="body" data-toggle="popover" data-placement="bottom" data-title="Popover on bottom" data-content="Here will be some very useful information about this popover." data-original-title="" title="">
                                 <h3 class="card-title" style="color: white;background-color: rgba(98,100,151,0.8)">Midlands</h3>
                             </div>
-                            <!-- <div class="card-footer project-details wow animated animated4 fadeInLeft">
+                            <div class="card-footer project-details wow animated animated4 fadeInLeft">
                                 <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                                 
-                            </div> -->
+                            </div>
+                        </div> -->
+
+                        <!-- USING BOOTSTRAP CARD IMG-OVERLAY -->
+                        <div class="card">
+                          <img class="card-img" src="img/lowresolution paul quiambao batch 1 (19).jpg" alt="Card image">
+                          <div class="card-img-overlay" data-container="body" data-toggle="popover" data-placement="bottom" data-title="" data-content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eu egestas felis. Etiam quis felis tincidunt diam blandit porttitor. Proin convallis facilisis libero, eu vulputate nunc lobortis ut. " data-original-title="" title="">
+                            <h3 class="card-text" style="color: white;background-color: rgba(98,100,151,0.8)">Lazuli</h3>
+                          </div>
                         </div>
 
 					</div>
