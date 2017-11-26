@@ -6,6 +6,12 @@
     <link rel="apple-touch-icon" sizes="76x76" href="../assets/img/apple-icon.png">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 
+    <meta property="og:url"           content="https://westpalawan.herokuapp.com/" />
+      <meta property="og:type"          content="website" />
+      <meta property="og:title"         content="West Palawan Premiere" />
+      <meta property="og:description"   content="Your description" />
+      <meta property="og:image"         content="img/wpp3.png" />
+
     <title>West Palawan Premiere</title>
     <link rel="icon" href="img/wpp3.png">
 
@@ -109,7 +115,15 @@
 
 </head>
 <body>
-    
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = 'https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.11';
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
+
     <div class="navbar-wrapper">
         <nav class="navbar navbar-expand-lg navbar-default">
             <div class="container">
@@ -475,10 +489,12 @@
                                     <i class="fa fa-twitter"></i>
                                     <!-- <p class="d-lg-none">Twitter</p> -->
                                 </a>
-                                <a class="btn btn-lg btn-link btn-just-icon btn-fill" rel="tooltip" title="Like us on Facebook" data-placement="bottom" href="https://www.facebook.com/" target="_blank">
+                                <!-- <div class="fb-share-button" data-href="https://westpalawan.herokuapp.com/"  data-size="small" data-mobile-iframe="true">
+                                <a class="fb-share-button btn btn-lg btn-link btn-just-icon btn-fill" rel="tooltip" title="Like us on Facebook" data-placement="bottom" data-href="https://westpalawan.herokuapp.com/" data-mobile-iframe="true">
                                     <i class="fa fa-facebook-square"></i>
-                                    <!-- <p class="d-lg-none">Facebook</p> -->
-                                </a>
+                                    <p class="d-lg-none">Facebook</p>
+                                </a> -->
+                                <div class="fb-share-button" data-href="https://westpalawan.herokuapp.com/" data-mobile-iframe="true"><a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwestpalawan.herokuapp.com%2F&amp;src=sdkpreparse"><i class="fa fa-facebook-square"></i></a></div>
                             
                                 <a class="btn btn-lg btn-link btn-just-icon btn-fill" rel="tooltip" title="Follow us on Instagram" data-placement="bottom" href="https://www.instagram.com/" target="_blank">
                                     <i class="fa fa-instagram"></i>
@@ -569,9 +585,16 @@
 
 </html>
 <script>
-    $(function () {
-      $('[data-toggle="popover"]').popover();
-    })
+    pk.initPopovers();
+
+    (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = "https://connect.facebook.net/en_US/sdk.js#xfbml=1";
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'))
+
             var camera, scene, renderer;
 
             var isUserInteracting = false,
