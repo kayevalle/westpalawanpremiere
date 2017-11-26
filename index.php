@@ -85,6 +85,19 @@
             padding-top: 20%;
             padding-bottom: 20%;
             border-radius: 0px;
+
+        }
+        .card-project{
+            min-height: 150px;
+        }
+        .project-card{
+            margin-bottom: 5px;
+        }
+        .navbar-dropdown{
+            border-radius: 0px!important;
+        }
+        .dropdown-menu::after{
+            display: none!important;
         }
         .tooltip.bs-tooltip-bottom .arrow{display:none;}
         .tooltip.bs-tooltip-bottom{margin-top:0px!important;}
@@ -110,8 +123,15 @@
                 </div>
                 <div class="collapse navbar-collapse" id="navbarToggler">
                     <ul class="navbar-nav ml-auto">
-                        <li class="nav-item">
-                            <a href="../index.html" class="nav-link">Products</a>
+                        <!-- <li class="nav-item"> -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" data-toggle="dropdown" id="dropdownMenuButton" href="#pk" role="button" aria-haspopup="true" aria-expanded="false">Products</a>
+                            <!-- <a class="nav-link">Products</a> -->
+                            <ul class="dropdown-menu navbar-dropdown">
+                                <li class="dropdown-item">Item 1</li>
+                                <li class="dropdown-item">Item 2</li>
+                                <li class="dropdown-item">Item 3</li>
+                            </ul>
                         </li>
                         <li class="nav-item">
                             <a href="../documentation/tutorial-components.html" target="_blank" class="nav-link">About</a>
@@ -270,14 +290,10 @@
             <div class="container text-center">
                 <div class="row text-center" style="display: inline-block;">
                         <h2 class="title text-center" id="projectstitle">Projects</h2>
-                        <!-- <button type="button" class="btn btn-outline-danger btn-round" data-container="body" data-toggle="popover" data-placement="bottom" data-title="Popover on bottom" data-content="Here will be some very useful information about this popover." data-original-title="" title="">on bottom</button>
-                        <button type="button" class="btn btn-popover btn-secondary" data-toggle="tooltip" data-placement="bottom" title="Tooltip on bottom">
-                          Tooltip on bottom
-                        </button> -->
                 </div>
 				<br/><br/>
 				<div class="row">
-					<div class="col-md-3">
+					<div class="col-md-3 col-sm-6 col-xs-12 project-card">  
 
                         <!-- USING PAPER KIT DEFAULT CARD -->
 						<!-- <div class="info">
@@ -292,26 +308,21 @@
 						</div> -->
 
                         <!-- USING DIV BACKGROUND -->
-                        <!-- <div class="card card-project" >
+                        <div class="card card-project" >
                             <div data-background="image" style="background-image: url('img/lowresolution paul quiambao batch 1 (19).jpg');" class="card-body card-projects" data-container="body" data-toggle="popover" data-placement="bottom" data-title="Popover on bottom" data-content="Here will be some very useful information about this popover." data-original-title="" title="">
                                 <h3 class="card-title" style="color: white;background-color: rgba(98,100,151,0.8)">Lazuli</h3>
                             </div>
-                            <div class="card-footer project-details wow animated animated4 fadeInLeft">
+                            <!-- <div class="card-footer project-details wow animated animated4 fadeInLeft">
                                 <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                                 
-                            </div>
-                        </div> -->
-
-                        <!-- USING BOOTSTRAP CARD IMG-OVERLAY -->
-                        <div class="card">
-                          <img class="card-img" src="img/lowresolution paul quiambao batch 1 (19).jpg" alt="Card image">
-                          <div class="card-img-overlay" data-container="body" data-toggle="popover" data-placement="bottom" data-title="" data-content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eu egestas felis. Etiam quis felis tincidunt diam blandit porttitor. Proin convallis facilisis libero, eu vulputate nunc lobortis ut. " data-original-title="" title="">
-                            <h3 class="card-text" style="color: white;background-color: rgba(98,100,151,0.8)">Lazuli</h3>
-                          </div>
+                            </div> -->
                         </div>
 
+                        <!-- USING BOOTSTRAP CARD DECK -->
+
+
 					</div>
-					<div class="col-md-3">
+					<div class="col-md-3 col-sm-6 col-xs-12 project-card"> 
 						<!-- <div class="info">
 							<div class="card-avatar">
                                 <img class="img img-fluid" src="img/lowresolution paul quiambao batch 1 (7).jpg">
@@ -323,27 +334,18 @@
 							</div>
 						</div> -->
 
-                        <!-- <div class="card card-project" >
+                        <div class="card card-project" >
                             <div data-background="image" style="background-image: url('img/lowresolution paul quiambao batch 1 (7).jpg');" class="card-body card-projects" data-container="body" data-toggle="popover" data-placement="bottom" data-title="Popover on bottom" data-content="Here will be some very useful information about this popover." data-original-title="" title="">
                                 <h3 class="card-title" style="color: white;background-color: rgba(98,100,151,0.8)">Sapphire Sands</h3>
                             </div>
-                            <div class="card-footer project-details wow animated animated4 fadeInLeft">
+                            <!-- <div class="card-footer project-details wow animated animated4 fadeInLeft">
                                 <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                                 
-                            </div>
-
-                        </div> -->
-
-                        <!-- USING BOOTSTRAP CARD IMG-OVERLAY -->
-                        <div class="card ">
-                          <img class="card-img " src="img/lowresolution paul quiambao batch 1 (7).jpg" alt="Card image">
-                          <div class="card-img-overlay" data-container="body" data-toggle="popover" data-placement="bottom" data-title="" data-content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eu egestas felis. Etiam quis felis tincidunt diam blandit porttitor. Proin convallis facilisis libero, eu vulputate nunc lobortis ut. " data-original-title="" title="">
-                            <h3 class="card-text" style="color: white;background-color: rgba(98,100,151,0.8)">Sapphire Sands</h3>
-                          </div>
+                            </div> -->
                         </div>
 
 					</div>
-					<div class="col-md-3">
+					<div class="col-md-3 col-sm-6 col-xs-12 project-card"> 
 						<!-- <div class="info">
 							<div class="card-avatar">
                                 <img class="img img-fluid" src="img/lowresolution paul quiambao batch 1 (20).jpg">
@@ -353,28 +355,20 @@
 								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum malesuada in risus ac maximus. Donec. </p>
 								<a href="#pkp" class="btn btn-link btn-danger">See more</a>
 							</div>
-						</div> -->
+						</div> --> 
 
-                        <!-- <div class="card card-project" >
+                        <div class="card card-project" >
                             <div data-background="image" style="background-image: url('img/lowresolution paul quiambao batch 1 (20).jpg');" class="card-body card-projects" data-container="body" data-toggle="popover" data-placement="bottom" data-title="Popover on bottom" data-content="Here will be some very useful information about this popover." data-original-title="" title="">
                                 <h3 class="card-title" style="color: white;background-color: rgba(98,100,151,0.8)">Diamond Cave</h3>
                             </div>
-                            <div class="card-footer project-details wow animated animated4 fadeInLeft">
+                            <!-- <div class="card-footer project-details wow animated animated4 fadeInLeft">
                                 <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                                 
-                            </div>
-                        </div> -->
-
-                        <!-- USING BOOTSTRAP CARD IMG-OVERLAY -->
-                        <div class="card">
-                          <img class="card-img" src="img/lowresolution paul quiambao batch 1 (20).jpg" alt="Card image">
-                          <div class="card-img-overlay" data-container="body" data-toggle="popover" data-placement="bottom" data-title="" data-content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eu egestas felis. Etiam quis felis tincidunt diam blandit porttitor. Proin convallis facilisis libero, eu vulputate nunc lobortis ut. " data-original-title="" title="">
-                            <h3 class="card-text" style="color: white;background-color: rgba(98,100,151,0.8)">Diamond Cave</h3>
-                          </div>
+                            </div> -->
                         </div>
 
 					</div>
-					<div class="col-md-3">
+					<div class="col-md-3 col-sm-6 col-xs-12 project-card">  
 						<!-- <div class="info">
 							<div class="card-avatar">
                                 <img class="img img-fluid" src="img/lowresolution paul quiambao batch 1 (26).jpg">
@@ -386,22 +380,14 @@
 							</div>
 						</div> -->
 
-                        <!-- <div class="card card-project" >
+                        <div class="card card-project" >
                             <div data-background="image" style="background-image: url('img/lowresolution paul quiambao batch 1 (26).jpg');" class="card-body card-projects" data-container="body" data-toggle="popover" data-placement="bottom" data-title="Popover on bottom" data-content="Here will be some very useful information about this popover." data-original-title="" title="">
                                 <h3 class="card-title" style="color: white;background-color: rgba(98,100,151,0.8)">Midlands</h3>
                             </div>
-                            <div class="card-footer project-details wow animated animated4 fadeInLeft">
+                            <!-- <div class="card-footer project-details wow animated animated4 fadeInLeft">
                                 <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                                 
-                            </div>
-                        </div> -->
-
-                        <!-- USING BOOTSTRAP CARD IMG-OVERLAY -->
-                        <div class="card">
-                          <img class="card-img" src="img/lowresolution paul quiambao batch 1 (26).jpg" alt="Card image">
-                          <div class="card-img-overlay" data-container="body" data-toggle="popover" data-placement="bottom" data-title="" data-content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eu egestas felis. Etiam quis felis tincidunt diam blandit porttitor. Proin convallis facilisis libero, eu vulputate nunc lobortis ut. " data-original-title="" title="">
-                            <h3 class="card-text" style="color: white;background-color: rgba(98,100,151,0.8)">Midlands</h3>
-                          </div>
+                            </div> -->
                         </div>
 
 					</div>
@@ -410,16 +396,16 @@
             </div>
         </div>
 
-        <div class="container-fluid" style="overflow: hidden">
-          <div class="row">
-            <div class="col-sm-6 col-md-3 panorama-container">
+        <div id="container" style="overflow: hidden">
+          <!-- <div class="row">
+            <div class="col-sm-6 col-md-3"> -->
                               
-              <script src="https://360player.io/static/dist/scripts/embed.js" async></script>
-              <iframe src="https://360player.io/p/rjhRh7/" frameborder="0" width=560 height=315 allowfullscreen data-token="rjhRh7"></iframe>
-
-                          
+              <!-- <script src="https://360player.io/static/dist/scripts/embed.js" async></script>
+              <iframe src="https://360player.io/p/rjhRh7/" frameborder="0" width=560 height=315 allowfullscreen data-token="rjhRh7"></iframe> -->
+              <!-- <div id="container" class="container-fluid"></div> -->
+           <!--                
             </div>
-          </div>
+          </div> -->
         </div> 
 
 		<div class="section">
@@ -575,13 +561,187 @@
 <script src="js/jquery-3.2.1.js" type="text/javascript"></script>
 <script src="js/jquery-ui-1.12.1.custom.min.js" type="text/javascript"></script>
 <script src="js/popper.js" type="text/javascript"></script>
-<script src="js/bootstrap.min.js" type="text/javascript"></script>
+<script src="js/bootstrap.min.js" type="text/javascript"></script>      
+<script src="js/three.js"></script>
 
 <!--  Paper Kit Initialization snd functons -->
-<script src="assets/js/paper-kit.js?v=2.1.0"></script>
-<script type="text/javascript">
+<script src="js/paper-kit.js?v=2.1.0"></script>
+
+</html>
+<script>
     $(function () {
       $('[data-toggle="popover"]').popover();
     })
-</script>
-</html>
+            var camera, scene, renderer;
+
+            var isUserInteracting = false,
+            onMouseDownMouseX = 0, onMouseDownMouseY = 0,
+            lon = 0, onMouseDownLon = 0,
+            lat = 0, onMouseDownLat = 0,
+            phi = 0, theta = 0;
+
+            init();
+            animate();
+
+            function init() {
+
+                var container, mesh;
+
+                container = document.getElementById( 'container' );
+
+                camera = new THREE.PerspectiveCamera( 75, window.innerWidth / window.innerHeight, 1, 1100 );
+                camera.target = new THREE.Vector3( 0, 0, 0 );
+
+                scene = new THREE.Scene();
+
+                var geometry = new THREE.SphereBufferGeometry( 500, 60, 40 );
+                // invert the geometry on the x-axis so that all of the faces point inward
+                geometry.scale( - 1, 1, 1 );
+
+                var material = new THREE.MeshBasicMaterial( {
+                    map: new THREE.TextureLoader().load( 'img/2294472375_24a3b8ef46_o.jpg' )
+                } );
+
+                mesh = new THREE.Mesh( geometry, material );
+
+                scene.add( mesh );
+
+                renderer = new THREE.WebGLRenderer();
+                renderer.setPixelRatio( window.devicePixelRatio );
+                renderer.setSize( window.innerWidth, window.innerHeight );
+                container.appendChild( renderer.domElement );
+
+                document.addEventListener( 'mousedown', onDocumentMouseDown, false );
+                document.addEventListener( 'mousemove', onDocumentMouseMove, false );
+                document.addEventListener( 'mouseup', onDocumentMouseUp, false );
+                document.addEventListener( 'wheel', onDocumentMouseWheel, false );
+
+                //
+
+                document.addEventListener( 'dragover', function ( event ) {
+
+                    event.preventDefault();
+                    event.dataTransfer.dropEffect = 'copy';
+
+                }, false );
+
+                document.addEventListener( 'dragenter', function ( event ) {
+
+                    document.body.style.opacity = 0.5;
+
+                }, false );
+
+                document.addEventListener( 'dragleave', function ( event ) {
+
+                    document.body.style.opacity = 1;
+
+                }, false );
+
+                document.addEventListener( 'drop', function ( event ) {
+
+                    event.preventDefault();
+
+                    var reader = new FileReader();
+                    reader.addEventListener( 'load', function ( event ) {
+
+                        material.map.image.src = event.target.result;
+                        material.map.needsUpdate = true;
+
+                    }, false );
+                    reader.readAsDataURL( event.dataTransfer.files[ 0 ] );
+
+                    document.body.style.opacity = 1;
+
+                }, false );
+
+                //
+
+                window.addEventListener( 'resize', onWindowResize, false );
+
+            }
+
+            function onWindowResize() {
+
+                camera.aspect = window.innerWidth / window.innerHeight;
+                camera.updateProjectionMatrix();
+
+                renderer.setSize( window.innerWidth, window.innerHeight );
+
+            }
+
+            function onDocumentMouseDown( event ) {
+
+                event.preventDefault();
+
+                isUserInteracting = true;
+
+                onMouseDownMouseX = event.clientX;
+                onMouseDownMouseY = event.clientY;
+
+                onMouseDownLon = lon;
+                onMouseDownLat = lat;
+
+            }
+
+            function onDocumentMouseMove( event ) {
+
+                if ( isUserInteracting === true ) {
+
+                    lon = ( onMouseDownMouseX - event.clientX ) * 0.1 + onMouseDownLon;
+                    lat = ( event.clientY - onMouseDownMouseY ) * 0.1 + onMouseDownLat;
+
+                }
+
+            }
+
+            function onDocumentMouseUp( event ) {
+
+                isUserInteracting = false;
+
+            }
+
+            function onDocumentMouseWheel( event ) {
+
+                var fov = camera.fov + event.deltaY * 0.05;
+
+                camera.fov = THREE.Math.clamp( fov, 10, 75 );
+
+                camera.updateProjectionMatrix();
+
+            }
+
+            function animate() {
+
+                requestAnimationFrame( animate );
+                update();
+
+            }
+
+            function update() {
+
+                if ( isUserInteracting === false ) {
+
+                    lon += 0.1;
+
+                }
+
+                lat = Math.max( - 85, Math.min( 85, lat ) );
+                phi = THREE.Math.degToRad( 90 - lat );
+                theta = THREE.Math.degToRad( lon );
+
+                camera.target.x = 500 * Math.sin( phi ) * Math.cos( theta );
+                camera.target.y = 500 * Math.cos( phi );
+                camera.target.z = 500 * Math.sin( phi ) * Math.sin( theta );
+
+                camera.lookAt( camera.target );
+
+                /*
+                // distortion
+                camera.position.copy( camera.target ).negate();
+                */
+
+                renderer.render( scene, camera );
+
+            }
+
+        </script>
